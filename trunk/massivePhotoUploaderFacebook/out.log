@@ -1,0 +1,181 @@
+16 mar 2008 09:49:59,093 DEBUG PropertyUtils.java:43  - Using properties file from ClassPath
+16 mar 2008 09:50:15,250 ERROR MassivePhotoUploaderFacebookView.java:306  - 
+java.lang.Exception: Directory name invalid, make sure the dir you choosed has subdir with albums!
+	at swe.joynes.preparator.Prepare.<init>(Prepare.java:93)
+	at massivephotouploaderfacebook.MassivePhotoUploaderFacebookView.showFileChooser(MassivePhotoUploaderFacebookView.java:298)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.jdesktop.application.ApplicationAction.noProxyActionPerformed(ApplicationAction.java:662)
+	at org.jdesktop.application.ApplicationAction.actionPerformed(ApplicationAction.java:698)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:272)
+	at java.awt.Component.processMouseEvent(Component.java:6038)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3265)
+	at java.awt.Component.processEvent(Component.java:5803)
+	at java.awt.Container.processEvent(Container.java:2058)
+	at java.awt.Component.dispatchEventImpl(Component.java:4410)
+	at java.awt.Container.dispatchEventImpl(Container.java:2116)
+	at java.awt.Component.dispatchEvent(Component.java:4240)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4322)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3986)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3916)
+	at java.awt.Container.dispatchEventImpl(Container.java:2102)
+	at java.awt.Window.dispatchEventImpl(Window.java:2429)
+	at java.awt.Component.dispatchEvent(Component.java:4240)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:273)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:183)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:173)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:168)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:160)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:121)
+16 mar 2008 09:57:28,718 DEBUG PropertyUtils.java:43  - Using properties file from ClassPath
+16 mar 2008 09:57:35,453 INFO  Init.java:149  - Initialising facebook client
+16 mar 2008 09:57:35,468 INFO  Init.java:149  - Using existing session
+16 mar 2008 09:57:35,593 INFO  BatchUploader.java:277  - Uploading
+16 mar 2008 09:57:35,609 INFO  BatchUploader.java:84  - BatchUploading
+16 mar 2008 09:57:37,109 INFO  BatchUploader.java:100  - Album 08-25 already exists so skipping it
+16 mar 2008 09:57:37,125 INFO  BatchUploader.java:277  - Synchronize: Album 08-25 already exists so skipping it
+16 mar 2008 09:57:37,125 INFO  BatchUploader.java:100  - Album 09-04 - avslutning already exists so skipping it
+16 mar 2008 09:57:37,140 INFO  BatchUploader.java:277  - Synchronize: Album 09-04 - avslutning already exists so skipping it
+16 mar 2008 09:57:37,140 INFO  BatchUploader.java:277  - Uploading finnished successfully!
+16 mar 2008 10:02:22,109 DEBUG PropertyUtils.java:43  - Using properties file from ClassPath
+16 mar 2008 10:02:26,625 INFO  Init.java:149  - Initialising facebook client
+16 mar 2008 10:02:26,640 INFO  Init.java:149  - Using existing session
+16 mar 2008 10:02:26,687 INFO  BatchUploader.java:277  - Uploading
+16 mar 2008 10:02:26,703 INFO  BatchUploader.java:84  - BatchUploading
+16 mar 2008 10:02:28,015 INFO  BatchUploader.java:129  - Resizing pictures and put in C:\DOCUME~1\joynes2\LOKALA~1\Temp\
+16 mar 2008 10:02:28,015 INFO  BatchUploader.java:277  - Resizing pictures and put in C:\DOCUME~1\joynes2\LOKALA~1\Temp\
+16 mar 2008 10:02:28,125 INFO  BatchUploader.java:277  - Resizing: P1010001
+16 mar 2008 10:02:28,156 DEBUG ImageUtils.java:225  - Resizing [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010001.jpg] to (604, 604)
+16 mar 2008 10:02:28,156 DEBUG ImageUtils.java:76  - Loading image: P1010001.jpg
+16 mar 2008 10:02:28,875 DEBUG ImageUtils.java:249  - Image written to [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010001.jpg]
+16 mar 2008 10:02:28,921 INFO  BatchUploader.java:277  - Resizing: P1010002
+16 mar 2008 10:02:28,921 DEBUG ImageUtils.java:225  - Resizing [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010002.jpg] to (604, 604)
+16 mar 2008 10:02:28,921 DEBUG ImageUtils.java:76  - Loading image: P1010002.jpg
+16 mar 2008 10:02:29,359 DEBUG ImageUtils.java:249  - Image written to [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010002.jpg]
+16 mar 2008 10:02:29,406 INFO  BatchUploader.java:277  - Resizing: P1010003
+16 mar 2008 10:02:29,421 DEBUG ImageUtils.java:225  - Resizing [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010003.jpg] to (604, 604)
+16 mar 2008 10:02:29,421 DEBUG ImageUtils.java:76  - Loading image: P1010003.jpg
+16 mar 2008 10:02:29,843 DEBUG ImageUtils.java:249  - Image written to [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010003.jpg]
+16 mar 2008 10:02:29,875 INFO  BatchUploader.java:277  - Resizing: P1010004
+16 mar 2008 10:02:29,890 DEBUG ImageUtils.java:225  - Resizing [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010004.jpg] to (604, 604)
+16 mar 2008 10:02:29,890 DEBUG ImageUtils.java:76  - Loading image: P1010004.jpg
+16 mar 2008 10:02:30,328 DEBUG ImageUtils.java:249  - Image written to [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010004.jpg]
+16 mar 2008 10:02:30,390 INFO  BatchUploader.java:277  - Resizing: P1010005
+16 mar 2008 10:02:30,578 DEBUG ImageUtils.java:225  - Resizing [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010005.jpg] to (604, 604)
+16 mar 2008 10:02:30,578 DEBUG ImageUtils.java:76  - Loading image: P1010005.jpg
+16 mar 2008 10:02:30,921 DEBUG ImageUtils.java:249  - Image written to [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010005.jpg]
+16 mar 2008 10:02:31,000 INFO  BatchUploader.java:277  - Resizing: P1010006
+16 mar 2008 10:02:31,000 DEBUG ImageUtils.java:225  - Resizing [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010006.jpg] to (604, 604)
+16 mar 2008 10:02:31,234 DEBUG ImageUtils.java:76  - Loading image: P1010006.jpg
+16 mar 2008 10:02:31,593 DEBUG ImageUtils.java:249  - Image written to [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010006.jpg]
+16 mar 2008 10:02:31,671 INFO  BatchUploader.java:277  - Resizing: P1010007
+16 mar 2008 10:02:31,671 DEBUG ImageUtils.java:225  - Resizing [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010007.jpg] to (604, 604)
+16 mar 2008 10:02:31,671 DEBUG ImageUtils.java:76  - Loading image: P1010007.jpg
+16 mar 2008 10:02:33,218 DEBUG ImageUtils.java:249  - Image written to [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010007.jpg]
+16 mar 2008 10:02:33,265 INFO  BatchUploader.java:277  - Resizing: P1010008
+16 mar 2008 10:02:33,265 DEBUG ImageUtils.java:225  - Resizing [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010008.jpg] to (604, 604)
+16 mar 2008 10:02:33,265 DEBUG ImageUtils.java:76  - Loading image: P1010008.jpg
+16 mar 2008 10:02:33,656 DEBUG ImageUtils.java:249  - Image written to [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010008.jpg]
+16 mar 2008 10:02:33,750 INFO  BatchUploader.java:277  - Resizing: P1010009
+16 mar 2008 10:02:33,750 DEBUG ImageUtils.java:225  - Resizing [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010009.jpg] to (604, 604)
+16 mar 2008 10:02:33,750 DEBUG ImageUtils.java:76  - Loading image: P1010009.jpg
+16 mar 2008 10:02:34,156 DEBUG ImageUtils.java:249  - Image written to [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010009.jpg]
+16 mar 2008 10:02:34,234 INFO  BatchUploader.java:277  - Resizing: P1010010
+16 mar 2008 10:02:34,640 DEBUG ImageUtils.java:225  - Resizing [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010010.jpg] to (604, 604)
+16 mar 2008 10:02:34,640 DEBUG ImageUtils.java:76  - Loading image: P1010010.jpg
+16 mar 2008 10:02:34,968 DEBUG ImageUtils.java:249  - Image written to [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010010.jpg]
+16 mar 2008 10:02:35,000 INFO  BatchUploader.java:277  - Resizing: P1010011
+16 mar 2008 10:02:35,000 DEBUG ImageUtils.java:225  - Resizing [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010011.jpg] to (604, 604)
+16 mar 2008 10:02:35,468 DEBUG ImageUtils.java:76  - Loading image: P1010011.jpg
+16 mar 2008 10:02:35,796 DEBUG ImageUtils.java:249  - Image written to [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010011.jpg]
+16 mar 2008 10:02:35,890 INFO  BatchUploader.java:277  - Resizing: P1010012
+16 mar 2008 10:02:35,906 DEBUG ImageUtils.java:225  - Resizing [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010012.jpg] to (604, 604)
+16 mar 2008 10:02:35,906 DEBUG ImageUtils.java:76  - Loading image: P1010012.jpg
+16 mar 2008 10:02:36,531 DEBUG ImageUtils.java:249  - Image written to [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010012.jpg]
+16 mar 2008 10:02:36,609 INFO  BatchUploader.java:277  - Resizing: P1010013
+16 mar 2008 10:02:36,609 DEBUG ImageUtils.java:225  - Resizing [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010013.jpg] to (604, 604)
+16 mar 2008 10:02:36,609 DEBUG ImageUtils.java:76  - Loading image: P1010013.jpg
+16 mar 2008 10:02:37,000 DEBUG ImageUtils.java:249  - Image written to [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010013.jpg]
+16 mar 2008 10:02:37,328 INFO  BatchUploader.java:277  - Resizing: P1010014
+16 mar 2008 10:02:37,328 DEBUG ImageUtils.java:225  - Resizing [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010014.jpg] to (604, 604)
+16 mar 2008 10:02:37,328 DEBUG ImageUtils.java:76  - Loading image: P1010014.jpg
+16 mar 2008 10:02:37,703 DEBUG ImageUtils.java:249  - Image written to [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010014.jpg]
+16 mar 2008 10:02:37,750 INFO  BatchUploader.java:277  - Resizing: P1010015
+16 mar 2008 10:02:38,359 DEBUG ImageUtils.java:225  - Resizing [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010015.jpg] to (604, 604)
+16 mar 2008 10:02:38,375 DEBUG ImageUtils.java:76  - Loading image: P1010015.jpg
+16 mar 2008 10:02:38,671 DEBUG ImageUtils.java:249  - Image written to [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010015.jpg]
+16 mar 2008 10:02:38,734 INFO  BatchUploader.java:277  - Resizing: P1010016
+16 mar 2008 10:02:38,734 DEBUG ImageUtils.java:225  - Resizing [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010016.jpg] to (604, 604)
+16 mar 2008 10:02:39,125 DEBUG ImageUtils.java:76  - Loading image: P1010016.jpg
+16 mar 2008 10:02:39,453 DEBUG ImageUtils.java:249  - Image written to [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010016.jpg]
+16 mar 2008 10:02:39,546 INFO  BatchUploader.java:277  - Resizing: P1010017
+16 mar 2008 10:02:39,562 DEBUG ImageUtils.java:225  - Resizing [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010017.jpg] to (604, 604)
+16 mar 2008 10:02:39,562 DEBUG ImageUtils.java:76  - Loading image: P1010017.jpg
+16 mar 2008 10:02:40,484 DEBUG ImageUtils.java:249  - Image written to [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010017.jpg]
+16 mar 2008 10:02:40,531 INFO  BatchUploader.java:277  - Resizing: P1010018
+16 mar 2008 10:02:40,546 DEBUG ImageUtils.java:225  - Resizing [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010018.jpg] to (604, 604)
+16 mar 2008 10:02:40,546 DEBUG ImageUtils.java:76  - Loading image: P1010018.jpg
+16 mar 2008 10:02:40,921 DEBUG ImageUtils.java:249  - Image written to [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010018.jpg]
+16 mar 2008 10:02:41,421 INFO  BatchUploader.java:277  - Resizing: P1010019
+16 mar 2008 10:02:41,437 DEBUG ImageUtils.java:225  - Resizing [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010019.jpg] to (604, 604)
+16 mar 2008 10:02:41,437 DEBUG ImageUtils.java:76  - Loading image: P1010019.jpg
+16 mar 2008 10:02:41,781 DEBUG ImageUtils.java:249  - Image written to [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010019.jpg]
+16 mar 2008 10:02:41,859 INFO  BatchUploader.java:277  - Resizing: P1010020
+16 mar 2008 10:02:42,734 DEBUG ImageUtils.java:225  - Resizing [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010020.jpg] to (604, 604)
+16 mar 2008 10:02:42,734 DEBUG ImageUtils.java:76  - Loading image: P1010020.jpg
+16 mar 2008 10:02:43,062 DEBUG ImageUtils.java:249  - Image written to [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010020.jpg]
+16 mar 2008 10:02:43,109 INFO  BatchUploader.java:277  - Resizing: P1010021
+16 mar 2008 10:02:43,109 DEBUG ImageUtils.java:225  - Resizing [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010021.jpg] to (604, 604)
+16 mar 2008 10:02:43,937 DEBUG ImageUtils.java:76  - Loading image: P1010021.jpg
+16 mar 2008 10:02:44,265 DEBUG ImageUtils.java:249  - Image written to [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010021.jpg]
+16 mar 2008 10:02:44,312 INFO  BatchUploader.java:277  - Resizing: P1010022
+16 mar 2008 10:02:44,312 DEBUG ImageUtils.java:225  - Resizing [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010022.jpg] to (604, 604)
+16 mar 2008 10:02:44,312 DEBUG ImageUtils.java:76  - Loading image: P1010022.jpg
+16 mar 2008 10:02:45,250 DEBUG ImageUtils.java:249  - Image written to [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010022.jpg]
+16 mar 2008 10:02:45,328 INFO  BatchUploader.java:277  - Resizing: P1010023
+16 mar 2008 10:02:45,328 DEBUG ImageUtils.java:225  - Resizing [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010023.jpg] to (604, 604)
+16 mar 2008 10:02:45,328 DEBUG ImageUtils.java:76  - Loading image: P1010023.jpg
+16 mar 2008 10:02:45,718 DEBUG ImageUtils.java:249  - Image written to [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010023.jpg]
+16 mar 2008 10:02:46,265 INFO  BatchUploader.java:277  - Resizing: P1010024
+16 mar 2008 10:02:46,265 DEBUG ImageUtils.java:225  - Resizing [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010024.jpg] to (604, 604)
+16 mar 2008 10:02:46,265 DEBUG ImageUtils.java:76  - Loading image: P1010024.jpg
+16 mar 2008 10:02:46,671 DEBUG ImageUtils.java:249  - Image written to [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010024.jpg]
+16 mar 2008 10:02:46,703 INFO  BatchUploader.java:277  - Resizing: P1010025
+16 mar 2008 10:02:46,937 DEBUG ImageUtils.java:225  - Resizing [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010025.jpg] to (604, 604)
+16 mar 2008 10:02:46,937 DEBUG ImageUtils.java:76  - Loading image: P1010025.jpg
+16 mar 2008 10:02:47,296 DEBUG ImageUtils.java:249  - Image written to [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010025.jpg]
+16 mar 2008 10:02:47,375 INFO  BatchUploader.java:277  - Resizing: P1010026
+16 mar 2008 10:02:47,375 DEBUG ImageUtils.java:225  - Resizing [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010026.jpg] to (604, 604)
+16 mar 2008 10:02:47,640 DEBUG ImageUtils.java:76  - Loading image: P1010026.jpg
+16 mar 2008 10:02:47,984 DEBUG ImageUtils.java:249  - Image written to [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010026.jpg]
+16 mar 2008 10:02:48,078 INFO  BatchUploader.java:277  - Resizing: P1010027
+16 mar 2008 10:02:48,078 DEBUG ImageUtils.java:225  - Resizing [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010027.jpg] to (604, 604)
+16 mar 2008 10:02:48,078 DEBUG ImageUtils.java:76  - Loading image: P1010027.jpg
+16 mar 2008 10:02:48,875 DEBUG ImageUtils.java:249  - Image written to [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010027.jpg]
+16 mar 2008 10:02:48,906 INFO  BatchUploader.java:277  - Resizing: P1010028
+16 mar 2008 10:02:48,906 DEBUG ImageUtils.java:225  - Resizing [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010028.jpg] to (604, 604)
+16 mar 2008 10:02:48,906 DEBUG ImageUtils.java:76  - Loading image: P1010028.jpg
+16 mar 2008 10:02:49,328 DEBUG ImageUtils.java:249  - Image written to [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010028.jpg]
+16 mar 2008 10:02:49,593 INFO  BatchUploader.java:277  - Resizing: P1010029
+16 mar 2008 10:02:49,609 DEBUG ImageUtils.java:225  - Resizing [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010029.jpg] to (604, 604)
+16 mar 2008 10:02:49,609 DEBUG ImageUtils.java:76  - Loading image: P1010029.jpg
+16 mar 2008 10:02:49,984 DEBUG ImageUtils.java:249  - Image written to [C:\Documents and Settings\joynes2\Lokala inställningar\Temp\P1010029.jpg]
+16 mar 2008 10:02:50,000 INFO  BatchUploader.java:277  - Creating Facebook album: 08-25
+16 mar 2008 10:02:50,406 INFO  BatchUploader.java:277  - Waiting...2 seconds
+16 mar 2008 10:02:52,406 INFO  BatchUploader.java:277  - Starting uploads!
+16 mar 2008 10:02:53,093 INFO  BatchUploader.java:277  - Upload: P1010001
+16 mar 2008 10:02:55,703 INFO  BatchUploader.java:277  - Upload: P1010002
+16 mar 2008 10:02:57,640 INFO  BatchUploader.java:277  - Upload: P1010003
+16 mar 2008 10:02:59,734 INFO  BatchUploader.java:277  - Upload: P1010004
+16 mar 2008 10:03:01,328 INFO  BatchUploader.java:277  - Upload: P1010005
+16 mar 2008 10:03:04,000 INFO  BatchUploader.java:277  - Upload: P1010006
+16 mar 2008 10:03:06,390 INFO  BatchUploader.java:277  - Upload: P1010007
+16 mar 2008 10:03:08,406 INFO  BatchUploader.java:277  - Upload: P1010008
